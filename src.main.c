@@ -29,7 +29,7 @@ int main() {
     AddressBook ab = { .count = 0 };
     int choice;
     char name[50], phone[20];
-
+	printf("CLI 주소록에 오신 것을 환영합니다!\n");
     while(1) {
         printf("\n1. 연락처 추가\n2. 연락처 목록\n3. 종료\n선택: ");
         scanf("%d", &choice);
